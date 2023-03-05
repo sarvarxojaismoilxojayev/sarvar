@@ -1,0 +1,16 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start !important;
+    margin-top: 40px;
+    border: 1px solid #dee2e6;
+    padding: 50px 20px 20px;
+}
+
+.list-item {
+    margin-bottom: 5px;
+} 
+
+.item-img {
+border-radius: 50%;
+}

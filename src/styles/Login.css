@@ -1,0 +1,38 @@
+.input-sarvar {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  width: 600px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.input-title {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.register {
+    margin-top: 60px !important;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    max-width: 700px;
+    margin: auto;
+    padding: 20px 50px 50px 50px;
+}
+
+.button-register {
+    width: 100%;
+}
+
+.buttom-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.clone {
+    margin-top: 120px !important;
+}
