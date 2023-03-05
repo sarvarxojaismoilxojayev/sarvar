@@ -1,13 +1,12 @@
 import React from 'react'
 import axios from 'axios' 
+import Nav from './Nav'
 
 export default function Explore() {
-     function getApi() {
-        let main = axios.get("api/v1/jobs").then((res) => console.log(res))
-     }
-
-     getApi()
   return (
-    <div>Explore</div>
+    <div>
+        <Nav/>
+        Ulgurilmagan
+        </div>
   )
 }
