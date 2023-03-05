@@ -5,6 +5,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Profile from "./pages/Profile";
 import Create from "./pages/Create";
+import Notfaund from './pages/Notfaund'
 
 function App() {
   const [count, setCount] = useState(0);
@@ -22,7 +23,7 @@ function App() {
         <Route path="/experience" />
         <Route path="/edit" />
         <Route path="/posts" />
-        <Route path="/*" />
+        <Route path="/*" element={<Notfaund/>}/>
       </Routes>
     </div>
   );
