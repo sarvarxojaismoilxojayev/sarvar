@@ -6,6 +6,7 @@ import Register from "./pages/Register";
 import Profile from "./pages/Profile";
 import Create from "./pages/Create";
 import Notfaund from './pages/Notfaund'
+import Explore from "./pages/Explore";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -17,12 +18,8 @@ function App() {
         <Route path="register" element={<Register />} />
         <Route path="/dashboard" element={<Profile />} />
         <Route path="/create-profile" element={<Create />} />
-        <Route path="/login" />
-        <Route path="/internal" />
-        <Route path="/education" />
-        <Route path="/experience" />
-        <Route path="/edit" />
-        <Route path="/posts" />
+        <Route path="/explore" element={<Explore  />}/>
+        <Route path="/my-job" />
         <Route path="/*" element={<Notfaund/>}/>
       </Routes>
     </div>
